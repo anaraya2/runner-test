@@ -1,3 +1,5 @@
 #!/bin/bash
 pwd
-arc
+arc shell python
+which python
+python --version
