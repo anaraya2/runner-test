@@ -31,7 +31,4 @@ jobs:
         echo $git_hash
         git_branch=${GITHUB_REF#refs/heads/}
         echo $git_branch
-        ls 
-        pwd
-        df
-        #./build.sh $git_hash
+        ./test.sh
